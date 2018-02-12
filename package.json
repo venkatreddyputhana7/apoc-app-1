@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "ng": "ng",
-    "start": "./node_modules/.bin/",
+    "start": "node ./bin/www",
     "build": "ng build --prod",
     "test": "node server",
     "lint": "ng lint",
